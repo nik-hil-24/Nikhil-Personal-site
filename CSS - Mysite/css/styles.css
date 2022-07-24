@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  margin: 100px auto;
+  color: grey;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  padding-bottom: 10px;
+  line-height: 2;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* CONTAINERS */
+
+
+.top-container {
+  padding-top: 100px;
+  animation: my-bg-animation 5s infinite;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+}
+
+
+/* MISCS */
+
+
+@keyframes my-bg-animation {
+  0% {
+    background-color: #EAF6F6;
+  }
+
+  50% {
+    background-color: #E3FDFD;
+  }
+
+  100% {
+    background-color: #EAF6F6;
+  }
+}
+
+.intro{
+  margin: auto;
+  width: 30%;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  padding: 30px;
+  line-height: 2;
+}
+
+.sr1{
+  margin-top: 0;
+}
+
+.contact-me{
+  margin: 75px auto;
+}
+
+.contact-discp{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn{
+  background-color: #11999E;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer-link {
+  margin: 15px;
+  color: #11999E;
+}
+
+.footer-link:hover{
+  color: #EAF6f6;
+}
+
+.copyrights{
+  padding: 20px 0;
+  color: white;
+}
+
+
+/* IMAGES */
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.profile-pic:hover {
+  background: white;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.sp1{
+  float: left;
+  margin-right: 30px;
+}
+
+.sp2{
+  float: right;
+  margin-left: 30px;
+}
